@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b86e410-cab4-4852-a347-b869272d7162" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../serveur/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../visualisation" beforeDir="false" afterPath="$PROJECT_DIR$/../visualisation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serveur/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
