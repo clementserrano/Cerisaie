@@ -9,7 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b86e410-cab4-4852-a347-b869272d7162" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/../serveur/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../visualisation" beforeDir="false" afterPath="$PROJECT_DIR$/../visualisation" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -809,12 +809,12 @@
       <workItem from="1524641115049" duration="121000" />
       <workItem from="1524641589561" duration="4378000" />
       <workItem from="1526909081346" duration="213000" />
-      <workItem from="1526910637390" duration="633000" />
+      <workItem from="1526910637390" duration="680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100084000" />
+    <option name="totallyTimeSpent" value="100131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
