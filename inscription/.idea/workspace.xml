@@ -8,8 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b86e410-cab4-4852-a347-b869272d7162" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../serveur/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -188,7 +187,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="width" value="1936" />
     <option name="height" value="1049" />
@@ -809,12 +808,12 @@
       <workItem from="1524641115049" duration="121000" />
       <workItem from="1524641589561" duration="4378000" />
       <workItem from="1526909081346" duration="213000" />
-      <workItem from="1526910637390" duration="680000" />
+      <workItem from="1526910637390" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100131000" />
+    <option name="totallyTimeSpent" value="100135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,14 +825,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1431" height="772" extended-state="7" />
+    <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32993445" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
