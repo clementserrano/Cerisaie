@@ -1,0 +1,39 @@
+<div class="row center">
+  <div class="col-md-1">
+    <a routerLink="/">
+      <h2 class="pan1 pan1-grey">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </h2>
+    </a>
+  </div>
+  <div class="col-md-11 col-md-offset-0">
+    <h2>
+      Choix de l'activité
+    </h2>
+  </div>
+</div>
+
+<br/>
+
+<div class="row center">
+  <a *ngFor="let activite of activites" routerLink="/planning/{{activite.id}}">
+    <div class="label label-info col-md-3 col-md-offset-1">
+      NomDuSport
+    </div>
+  </a>
+  <a routerLink="/planning">
+    <div class="label label-info col-md-3 col-md-offset-1">
+      NomDuSport
+    </div>
+  </a>
+  <a routerLink="/">
+    <div class="label label-info col-md-3 col-md-offset-1">
+      NomDuSport
+    </div>
+  </a>
+  <a routerLink="/">
+    <div class="label label-info col-md-3 col-md-offset-1">
+      NomDuSport
+    </div>
+  </a>
+</div>

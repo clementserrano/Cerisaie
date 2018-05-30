@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Browser, Window} from "selenium-webdriver";
 
 @Component({
   selector: 'app-menu',
@@ -10,6 +11,10 @@ export class MenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  quit() :void{
+    //Nothing here
   }
 
 }
