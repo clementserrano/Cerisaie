@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'planningGlobal', component: PlanningGlobalComponent},
   { path: 'choixActivite', component: SelectionActiviteComponent},
-  { path: 'planning', component: PlanningActiviteComponent}
+  { path: 'planning/:id', component: PlanningActiviteComponent}
 ];
 
 @NgModule({
