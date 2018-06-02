@@ -15,10 +15,7 @@ import java.text.SimpleDateFormat;
 import java.sql.Date;
 
 import javax.annotation.Resource;
-import meserreurs.MonException;
-import metier.Inscription;
-
-import javax.naming.NamingException;
+import utils.MonException;
 
 /**
  * Servlet implementation class Traitement
