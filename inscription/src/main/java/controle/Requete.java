@@ -1,6 +1,8 @@
-package utils;
+package controle;
 
-public class Requete {
+import java.io.Serializable;
+
+public class Requete implements Serializable {
     private String nom;
     private Object dto;
 

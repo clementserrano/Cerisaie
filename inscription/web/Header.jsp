@@ -9,7 +9,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="refresh" content="0;URL=javascript:fermer();">
-    <title> TP Inscription </title>
+    <title> TP Cerisaie </title>
     <link rel="stylesheet" href="resources/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/jquery-ui.min.css">
@@ -25,7 +25,8 @@
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="index.jsp">Accueil</a></li>
-            <li><a href="AjouteInscription.jsp">Ajouter Inscription</a></li>
+            <li><a href="AjouteActivite.jsp">Ajouter Activité</a></li>
+            <li><a href="AjouteSejour.jsp">Ajouter Séjour</a></li>
         </ul>
     </div>
 </nav>

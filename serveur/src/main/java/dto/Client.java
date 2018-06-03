@@ -1,6 +1,8 @@
 package dto;
 
-public class Client {
+import java.io.Serializable;
+
+public class Client implements Serializable {
     private int numCli;
     private String nomCli;
     private String adrRueCli;
@@ -8,16 +10,6 @@ public class Client {
     private String villeCli;
     private String pieceCli;
     private int numPieceCli;
-
-    public Client(int numCli, String nomCli, String adrRueCli, int cpCli, String villeCli, String pieceCli, int numPieceCli) {
-        this.numCli = numCli;
-        this.nomCli = nomCli;
-        this.adrRueCli = adrRueCli;
-        this.cpCli = cpCli;
-        this.villeCli = villeCli;
-        this.pieceCli = pieceCli;
-        this.numPieceCli = numPieceCli;
-    }
 
     public int getNumCli() {
         return numCli;

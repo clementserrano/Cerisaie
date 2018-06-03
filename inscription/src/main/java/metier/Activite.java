@@ -1,19 +1,13 @@
 package metier;
 
+import java.io.Serializable;
 import java.sql.Date;
 
-public class Activite {
+public class Activite implements Serializable {
     private int codeSport;
     private Date dateJour;
     private int numSej;
     private short nbLoc;
-
-    public Activite(int codeSport, Date dateJour, int numSej, short nbLoc) {
-        this.codeSport = codeSport;
-        this.dateJour = dateJour;
-        this.numSej = numSej;
-        this.nbLoc = nbLoc;
-    }
 
     public int getCodeSport() {
         return codeSport;

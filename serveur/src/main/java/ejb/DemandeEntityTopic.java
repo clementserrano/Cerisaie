@@ -1,9 +1,8 @@
 package ejb;
 
+import dto.*;
 import service.EnregistreEntity;
-import utils.EcritureErreur;
-import utils.MonException;
-import utils.Requete;
+import utils.*;
 
 import javax.annotation.Resource;
 import javax.ejb.ActivationConfigProperty;
@@ -37,11 +36,16 @@ public class DemandeEntityTopic implements MessageListener {
                 try {
                     Object entity = null;
 
-                    switch(requete.getNom()){
-                        case "" : break;
+                    switch (NomRequete.valueOf(requete.getNom())) {
+                        case INSERT_ACTIVITE:
+                            entity = FactoryEntity.createActivite((Activite) requete.getDto());
+                            break;
+                        case INSERT_SEJOUR:
+                            entity = FactoryEntity.createSejour((Sejour) requete.getDto());
+                            break;
                     }
 
-                    if(entity != null){
+                    if (entity != null) {
                         EnregistreEntity enregistreEntity = new EnregistreEntity();
                         enregistreEntity.insert(entity);
                     }

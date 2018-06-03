@@ -7,40 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e6c6e4-87b2-4624-a480-4c45b51e2531" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../inscription/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Activite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Emplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Sejour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Sport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/TypeEmplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/utils/Requete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Activite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Emplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Sejour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Sport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TypeEmplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/EnregistreEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EcritureErreur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/FactoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Requete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/.idea/artifacts/AppClientInscription_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/.idea/artifacts/inscription_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inscription/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/controle/FactoryRequete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inscription/src/main/java/utils/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inscription/web/AjouteSejour.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/NomRequete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inscription/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/inscription.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/inscription.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/controle/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/controle/Controleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/meserreurs/MonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/utils/MonException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/Inscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/15ae59f9-b956-48d5-aab4-06d837d50672.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/befb46fe-88db-452b-bb59-e221cf8bf202.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/Activite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Activite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/Emplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Emplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/Sejour.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Sejour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/Sport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Sport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/TypeEmplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/TypeEmplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/utils/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/Requete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/web/AjouteInscription.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/web/AjouteActivite.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/web/Erreur.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/web/Erreur.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/web/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/web/Header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inscription/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/meserreurs/MonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MonException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/Inscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serveur.iml" beforeDir="false" afterPath="$PROJECT_DIR$/serveur.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Activite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Activite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Emplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Emplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Sejour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Sejour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Sport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/Sport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/TypeEmplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/TypeEmplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/FactoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/FactoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/controle/Requete.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,112 +83,10 @@
       <file leaf-file-name="DemandeEntityTopic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="512">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activite.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/Activite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Emplacement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/Emplacement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sejour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/Sejour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/Sport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TypeEmplacement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dto/TypeEmplacement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactoryEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/FactoryEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Requete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Requete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-              <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,10 +136,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ejb/DemandeTopic.java" />
         <option value="$PROJECT_DIR$/src/main/java/metier/FactoryEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Metier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/NomRequete.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Requete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dto/Activite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ejb/FactoryEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/NomRequete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ejb/Requete.java" />
       </list>
     </option>
   </component>
@@ -275,10 +173,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="width" value="1937" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-14" />
+    <option name="width" value="1938" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -287,8 +185,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,6 +211,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serveur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serveur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serveur" type="b2602c69:ProjectViewProjectNode" />
@@ -379,13 +285,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="metier" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="metier" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="metier" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\serra\IdeaProjects\Cerisaie\serveur\src\main\java\dto" />
       <recent name="D:\epul\progrrepartie\annee2018\intellij\InscriptionTopic\src\main\resources" />
       <recent name="D:\epul\progrrepartie\annee2018\intellij\InscriptionTopic\src\main\java" />
       <recent name="D:\epul\progrrepartie\annee2018\intellij\InscriptionTopic\src\main\java\metier" />
@@ -542,6 +449,7 @@
       <workItem from="1526908921572" duration="368000" />
       <workItem from="1526910714630" duration="1366000" />
       <workItem from="1527953534521" duration="5476000" />
+      <workItem from="1528014559349" duration="3915000" />
     </task>
     <task id="LOCAL-00001" summary="Enorme copier coller, génération des entity dans serveur, il faudra desynchro les .idea et .iml pour pas s'entretuer">
       <created>1526911551008</created>
@@ -568,15 +476,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38464000" />
+    <option name="totallyTimeSpent" value="42379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.37383178" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32993445" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32866043" />
       <window_info anchor="right" id="CDI" order="4" weight="0.32993445" />
@@ -593,11 +499,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.49844238" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" sideWeight="0.5155763" side_tool="true" weight="0.2607429" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.26438457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.26802623" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32993445" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -605,11 +511,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.14330219" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,16 +558,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge oK" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/MonException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -668,16 +566,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="57" selection-start-line="56" selection-start-column="57" selection-end-line="56" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -687,16 +576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/InscriptionEntity.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ejb/JBossContext.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/MonException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -704,16 +584,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metier.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/service/EnregistreInscription.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/meserreurs/MonException.java" />
@@ -734,16 +605,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/InscriptionEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Inscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Inscription.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/ActiviteEntityPK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -779,113 +641,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreEmplacement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreSejour.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreSport.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreTypeEmplacement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeSportTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeTypeEmplacementTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreActivite.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeActiviteTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeEmplacementTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeSejourTopic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/TypeEmplacementEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreEmplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreSejour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreSport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreTypeEmplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreInscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeSportTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeTypeEmplacementTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeInscriptionTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="106" column="5" lean-forward="true" selection-start-line="24" selection-end-line="106" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EnregistreActivite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/ActiviteEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="160">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MonException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/EcritureErreur.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Sport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Sejour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="48">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/TypeEmplacement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Activite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/FactoryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -899,130 +726,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeActiviteTopic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/EcritureErreur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="42" column="67" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="42" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeEmplacementTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="41" column="83" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="41" selection-end-column="83" />
+        <state relative-caret-position="400">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeSejourTopic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MonException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Activite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Emplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Sejour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Sport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/TypeEmplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FactoryEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="224">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/NomRequete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="64">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Requete.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/Emplacement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ejb/Requete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="512">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

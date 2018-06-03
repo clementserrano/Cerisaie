@@ -1,6 +1,8 @@
 package dto;
 
-public class Sport {
+import java.io.Serializable;
+
+public class Sport implements Serializable {
     private int codeSport;
     private String libelleSport;
     private String uniteTpsSport;
@@ -35,14 +37,6 @@ public class Sport {
     }
 
     public void setTarifUnite(int tarifUnite) {
-        this.tarifUnite = tarifUnite;
-    }
-
-    public Sport(int codeSport, String libelleSport, String uniteTpsSport, int tarifUnite) {
-
-        this.codeSport = codeSport;
-        this.libelleSport = libelleSport;
-        this.uniteTpsSport = uniteTpsSport;
         this.tarifUnite = tarifUnite;
     }
 }

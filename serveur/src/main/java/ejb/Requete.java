@@ -1,17 +1,10 @@
-package utils;
+package ejb;
 
-public class Requete {
+import java.io.Serializable;
+
+public class Requete implements Serializable {
     private String nom;
     private Object dto;
-
-    enum Nom {
-        INSERT_ACTIVITE,
-        INSERT_CLIENT,
-        INSERT_EMPLACEMENT,
-        INSERT_SEJOUR,
-        INSERT_SPORT,
-        INSERT_TYPE_EMPLACEMENT
-    }
 
     public Requete(String nom, Object dto) {
         this.nom = nom;

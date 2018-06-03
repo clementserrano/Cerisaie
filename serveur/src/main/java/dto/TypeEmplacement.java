@@ -1,6 +1,8 @@
 package dto;
 
-public class TypeEmplacement {
+import java.io.Serializable;
+
+public class TypeEmplacement implements Serializable {
     private int codeTypeE;
     private String libtypepl;
     private int tariftypepl;
@@ -26,13 +28,6 @@ public class TypeEmplacement {
     }
 
     public void setTariftypepl(int tariftypepl) {
-        this.tariftypepl = tariftypepl;
-    }
-
-    public TypeEmplacement(int codeTypeE, String libtypepl, int tariftypepl) {
-
-        this.codeTypeE = codeTypeE;
-        this.libtypepl = libtypepl;
         this.tariftypepl = tariftypepl;
     }
 }

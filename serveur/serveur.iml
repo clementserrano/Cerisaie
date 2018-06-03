@@ -7,6 +7,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="Entities" value="a90b3e76-df5b-45ed-9e51-7bf2dc2035d3" />
+          <factory-entry name="PCerisaie" value="6e7f65c3-5106-49bf-9f08-a44afa380ef8" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>

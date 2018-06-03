@@ -1,8 +1,9 @@
 package metier;
 
+import java.io.Serializable;
 import java.sql.Date;
 
-public class Sejour {
+public class Sejour implements Serializable {
     private int numSej;
     private Date datedebSej;
     private Date dateFinSej;
@@ -37,14 +38,6 @@ public class Sejour {
     }
 
     public void setNbPersonnes(int nbPersonnes) {
-        this.nbPersonnes = nbPersonnes;
-    }
-
-    public Sejour(int numSej, Date datedebSej, Date dateFinSej, int nbPersonnes) {
-
-        this.numSej = numSej;
-        this.datedebSej = datedebSej;
-        this.dateFinSej = dateFinSej;
         this.nbPersonnes = nbPersonnes;
     }
 }

@@ -1,6 +1,8 @@
 package metier;
 
-public class Emplacement {
+import java.io.Serializable;
+
+public class Emplacement implements Serializable {
     private int numEmpl;
     private short surfaceEmpl;
     private short nbPersMaxEmpl;
@@ -26,13 +28,6 @@ public class Emplacement {
     }
 
     public void setNbPersMaxEmpl(short nbPersMaxEmpl) {
-        this.nbPersMaxEmpl = nbPersMaxEmpl;
-    }
-
-    public Emplacement(int numEmpl, short surfaceEmpl, short nbPersMaxEmpl) {
-
-        this.numEmpl = numEmpl;
-        this.surfaceEmpl = surfaceEmpl;
         this.nbPersMaxEmpl = nbPersMaxEmpl;
     }
 }
