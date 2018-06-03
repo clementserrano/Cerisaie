@@ -57,13 +57,6 @@ public class Controleur extends HttpServlet {
                     requete = FactoryRequete.createActivite(request, response);
                     gererEnvoi(requete, request, response);
                     break;
-                case AJOUTE_SEJOUR:
-                    request.getRequestDispatcher("AjouteSejour.jsp").forward(request, response);
-                    break;
-                case ENVOI_SEJOUR:
-                    requete = FactoryRequete.createSejour(request, response);
-                    gererEnvoi(requete, request, response);
-                    break;
             }
         } catch (MonException m) {
             request.setAttribute("MesErreurs", m.getMessage());

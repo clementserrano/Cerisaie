@@ -1,8 +1,9 @@
 package ejb;
 
-import dto.*;
+import dto.Activite;
 import service.EnregistreEntity;
-import utils.*;
+import utils.EcritureErreur;
+import utils.NomRequete;
 
 import javax.annotation.Resource;
 import javax.ejb.ActivationConfigProperty;
@@ -12,7 +13,6 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.ObjectMessage;
-import javax.naming.NamingException;
 
 @MessageDriven(activationConfig = {
         @ActivationConfigProperty(
@@ -35,13 +35,10 @@ public class DemandeEntityTopic implements MessageListener {
                 message = null;
                 try {
                     Object entity = null;
-
                     switch (NomRequete.valueOf(requete.getNom())) {
                         case INSERT_ACTIVITE:
                             entity = FactoryEntity.createActivite((Activite) requete.getDto());
-                            break;
-                        case INSERT_SEJOUR:
-                            entity = FactoryEntity.createSejour((Sejour) requete.getDto());
+                            System.out.println(entity);
                             break;
                     }
 
@@ -49,10 +46,6 @@ public class DemandeEntityTopic implements MessageListener {
                         EnregistreEntity enregistreEntity = new EnregistreEntity();
                         enregistreEntity.insert(entity);
                     }
-                } catch (NamingException er) {
-                    EcritureErreur.write(er.getMessage());
-                } catch (MonException e) {
-                    EcritureErreur.write(e.getMessage());
                 } catch (Exception ex) {
                     EcritureErreur.write(ex.getMessage());
                 }

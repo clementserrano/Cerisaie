@@ -12,7 +12,7 @@ public class EnregistreEntity {
     private EntityManagerFactory factory;
     private EntityManager entityManager;
 
-    public void insert(Object entity) throws Exception, MonException {
+    public void insert(Object entity) {
 
         factory = Persistence.createEntityManagerFactory("PCerisaie");
         entityManager = factory.createEntityManager();

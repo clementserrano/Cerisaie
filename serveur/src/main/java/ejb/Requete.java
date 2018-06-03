@@ -6,11 +6,6 @@ public class Requete implements Serializable {
     private String nom;
     private Object dto;
 
-    public Requete(String nom, Object dto) {
-        this.nom = nom;
-        this.dto = dto;
-    }
-
     public String getNom() {
         return nom;
     }

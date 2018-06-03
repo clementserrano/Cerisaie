@@ -13,13 +13,4 @@ public class FactoryEntity {
         activiteEntity.setNumSej(activite.getNumSej());
         return activiteEntity;
     }
-
-    public static SejourEntity createSejour(Sejour sejour) {
-        SejourEntity sejourEntity = new SejourEntity();
-        sejourEntity.setDatedebSej(sejour.getDatedebSej());
-        sejourEntity.setDateFinSej(sejour.getDateFinSej());
-        sejourEntity.setNbPersonnes(sejour.getNbPersonnes());
-        sejourEntity.setNumSej(sejour.getNumSej());
-        return sejourEntity;
-    }
 }

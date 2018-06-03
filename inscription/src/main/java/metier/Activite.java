@@ -5,6 +5,7 @@ import java.sql.Date;
 
 public class Activite implements Serializable {
     private int codeSport;
+    private String libelle;
     private Date dateJour;
     private int numSej;
     private short nbLoc;
@@ -15,6 +16,14 @@ public class Activite implements Serializable {
 
     public void setCodeSport(int codeSport) {
         this.codeSport = codeSport;
+    }
+
+    public String getLibelle() {
+        return libelle;
+    }
+
+    public void setLibelle(String libelle) {
+        this.libelle = libelle;
     }
 
     public Date getDateJour() {

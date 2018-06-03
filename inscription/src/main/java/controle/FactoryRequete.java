@@ -1,5 +1,8 @@
 package controle;
 
+import metier.Activite;
+import utils.NomRequete;
+
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import java.sql.Date;
@@ -9,33 +12,39 @@ import java.text.SimpleDateFormat;
 public class FactoryRequete {
     public static Requete createActivite(ServletRequest request, ServletResponse response) {
         try {
+            Requete requete = new Requete();
+            requete.setNom(NomRequete.INSERT_ACTIVITE.name());
+
+            Activite activite = new Activite();
+
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
             response.setContentType("text/html;charset=UTF-8");
-            String nom = request.getParameter("nom");
-            String prenom = request.getParameter("prenom");
 
+            String codeSport = request.getParameter("codeSport");
+            String libelle = request.getParameter("libelle");
 
-            String datenaissance = request.getParameter("datenaissance");
-            java.util.Date initDate = new SimpleDateFormat("dd/MM/yyyy").parse(datenaissance);
+            String dateJourString = request.getParameter("dateJour");
+            java.util.Date initDate = new SimpleDateFormat("dd/MM/yyyy").parse(dateJourString);
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
             String parsedDate = formatter.format(initDate);
-
             initDate = formatter.parse(parsedDate);
+            Date dateJour = new Date(initDate.getTime());
 
-            Date uneDate = new Date(initDate.getTime());
+            String nbLoc = request.getParameter("nbLoc");
+            String numSej = request.getParameter("numSej");
 
-            String adresse = request.getParameter("adresse");
-            String cpostal = request.getParameter("cpostal");
-            String ville = request.getParameter("ville");
-            return null;
+            activite.setCodeSport(Integer.parseInt(codeSport));
+            activite.setLibelle(libelle);
+            activite.setDateJour(dateJour);
+            activite.setNbLoc(Short.parseShort(nbLoc));
+            activite.setNumSej(Integer.parseInt(numSej));
+
+            requete.setDto(activite);
+
+            return requete;
         } catch (ParseException e) {
             e.printStackTrace();
             return null;
         }
-    }
-
-    public static Requete createSejour(ServletRequest request, ServletResponse response) {
-
-        return null;
     }
 }
