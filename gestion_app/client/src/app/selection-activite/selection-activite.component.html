@@ -16,24 +16,9 @@
 <br/>
 
 <div class="row center">
-  <a *ngFor="let activite of activites" routerLink="/planning/{{activite.id}}">
+  <a *ngFor="let sport of sports" routerLink="/planning/{{sport.idSport}}">
     <div class="label label-info col-md-3 col-md-offset-1">
-      NomDuSport
-    </div>
-  </a>
-  <a routerLink="/planning">
-    <div class="label label-info col-md-3 col-md-offset-1">
-      NomDuSport
-    </div>
-  </a>
-  <a routerLink="/">
-    <div class="label label-info col-md-3 col-md-offset-1">
-      NomDuSport
-    </div>
-  </a>
-  <a routerLink="/">
-    <div class="label label-info col-md-3 col-md-offset-1">
-      NomDuSport
+      {{ sport.nomSport }}
     </div>
   </a>
 </div>

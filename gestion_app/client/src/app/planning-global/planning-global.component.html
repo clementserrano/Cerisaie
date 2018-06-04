@@ -25,11 +25,11 @@
       </tr>
       </thead>
     <tbody class="row">
-      <tr>
-        <td class="col-md-3">Lombardo</td>
-        <td class="col-md-3">29 Mai 2018</td>
-        <td class="col-md-3">Tennis</td>
-        <td class="col-md-3">1</td>
+      <tr *ngFor="let activite of activites">
+        <td class="col-md-3">{{ activite.nomClient }}</td>
+        <td class="col-md-3">{{ activite.date }}</td>
+        <td class="col-md-3">{{ activite.nomActivite }}</td>
+        <td class="col-md-3">{{ activite.nbInscriptions }}</td>
       </tr>
     </tbody>
     </table>

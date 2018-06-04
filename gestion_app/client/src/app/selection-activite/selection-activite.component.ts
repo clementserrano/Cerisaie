@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Observable} from "rxjs/index";
+import {SportService} from "../services/sport/sport.service";
 
 @Component({
   selector: 'app-selection-activite',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SelectionActiviteComponent implements OnInit {
 
-  constructor() { }
+  sports: Observable<any>;
+
+  constructor(private sportService: SportService) { }
 
   ngOnInit() {
+    this.sportService.getAll().subscribe(data => {
+      this.sports = data;
+    })
   }
 
 }

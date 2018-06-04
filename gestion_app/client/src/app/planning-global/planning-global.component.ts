@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ActiviteService} from "../services/activite/activite.service";
+import {Observable} from "rxjs/index";
 
 @Component({
   selector: 'app-planning-global',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlanningGlobalComponent implements OnInit {
 
-  constructor() { }
+  activites: Observable<any>;
+
+  constructor(private activiteService: ActiviteService) { }
 
   ngOnInit() {
-  }
 
+    this.activiteService.getAll().subscribe(data => {
+      this.activites = data;
+    })
+
+  }
 }

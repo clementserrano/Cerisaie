@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Browser, Window} from "selenium-webdriver";
 
 @Component({
   selector: 'app-menu',
@@ -14,7 +13,10 @@ export class MenuComponent implements OnInit {
   }
 
   quit() :void{
-    //Nothing here
+    if (confirm('Do you really want to close the application?')) {
+      window.open('', '_parent', '');
+      window.close();
+    }
+    //Impossible for this projet => doesn't work !!
   }
-
 }

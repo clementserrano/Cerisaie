@@ -1,7 +1,7 @@
-<div *ngIf="activite">
+<div *ngIf="activites">
   <div class="row center">
     <div class="col-md-1">
-      <a routerLink="/">
+      <a (click)="goBack()">
         <h2 class="pan1 pan1-grey">
           <span class="glyphicon glyphicon-chevron-left"></span>
         </h2>
@@ -9,7 +9,7 @@
     </div>
     <div class="col-md-11 col-md-offset-0">
       <h2>
-        Consultation du planning de {{ activite.name }}
+        Consultation du planning de {{ nomActivite }}
       </h2>
     </div>
   </div>
@@ -26,11 +26,11 @@
         </tr>
         </thead>
         <tbody class="row">
-        <tr>
-          <td class="col-md-3">Lombardo</td>
-          <td class="col-md-3">29 Mai 2018</td>
-          <td class="col-md-3">Tennis</td>
-          <td class="col-md-3">1</td>
+        <tr *ngFor="let activite of activites">
+          <td class="col-md-3">{{ activite.nomClient }}</td>
+          <td class="col-md-3">{{ activite.date }}</td>
+          <td class="col-md-3">{{ activite.nomActivite }}</td>
+          <td class="col-md-3">{{ activite.nbInscriptions }}</td>
         </tr>
         </tbody>
       </table>

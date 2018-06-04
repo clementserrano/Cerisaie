@@ -8,9 +8,9 @@ import {PlanningActiviteComponent} from "./planning-activite/planning-activite.c
 const routes: Routes = [
   { path: '', redirectTo: '/menu', pathMatch: 'full' },
   { path: 'menu', component: MenuComponent },
-  { path: 'planningGlobal', component: PlanningGlobalComponent},
-  { path: 'choixActivite', component: SelectionActiviteComponent},
-  { path: 'planning/:id', component: PlanningActiviteComponent}
+  { path: 'planningGlobal', component: PlanningGlobalComponent },
+  { path: 'choixActivite', component: SelectionActiviteComponent },
+  { path: 'planning/:id', component: PlanningActiviteComponent }
 ];
 
 @NgModule({

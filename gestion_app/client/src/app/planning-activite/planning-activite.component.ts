@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from "@angular/router";
+import {ActiviteService} from "../services/activite/activite.service";
+import {Location} from "@angular/common";
+import {Observable} from "rxjs/index";
 
 @Component({
   selector: 'app-planning-activite',
@@ -7,9 +11,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlanningActiviteComponent implements OnInit {
 
-  constructor() { }
+  activites: Observable<any>;
+  nomActivite: String;
+
+  constructor(
+    private route: ActivatedRoute,
+    private activiteService: ActiviteService,
+    private location: Location
+  ) { }
 
   ngOnInit() {
+    this.getActivites();
   }
+
+  getActivites(): void {
+    const id = this.route.snapshot.paramMap.get('id');
+    this.activiteService.getAllBySport(id).subscribe(data => {
+        this.activites = data;
+        this.nomActivite = data[0].nomActivite;
+    });
+  }
+
+  goBack(): void {
+    this.location.back();
+  }
+
 
 }
