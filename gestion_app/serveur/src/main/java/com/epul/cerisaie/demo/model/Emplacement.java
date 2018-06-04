@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "emplacement", schema = "cerisaie")
-public class EmplacementEntity {
+public class Emplacement {
     private int numEmpl;
     private short surfaceEmpl;
     private short nbPersMaxEmpl;
@@ -44,7 +44,7 @@ public class EmplacementEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        EmplacementEntity that = (EmplacementEntity) o;
+        Emplacement that = (Emplacement) o;
         return numEmpl == that.numEmpl &&
                 surfaceEmpl == that.surfaceEmpl &&
                 nbPersMaxEmpl == that.nbPersMaxEmpl;

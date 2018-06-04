@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "type_emplacement", schema = "cerisaie")
-public class TypeEmplacementEntity {
+public class TypeEmplacement {
     private int codeTypeE;
     private String libtypepl;
     private int tariftypepl;
@@ -44,7 +44,7 @@ public class TypeEmplacementEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        TypeEmplacementEntity that = (TypeEmplacementEntity) o;
+        TypeEmplacement that = (TypeEmplacement) o;
         return codeTypeE == that.codeTypeE &&
                 tariftypepl == that.tariftypepl &&
                 Objects.equals(libtypepl, that.libtypepl);

@@ -5,19 +5,19 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "sport", schema = "cerisaie")
-public class SportEntity {
-    private int codeSport;
+public class Sport {
+    private Integer codeSport;
     private String libelleSport;
     private String uniteTpsSport;
     private int tarifUnite;
 
     @Id
     @Column(name = "CodeSport")
-    public int getCodeSport() {
+    public Integer getCodeSport() {
         return codeSport;
     }
 
-    public void setCodeSport(int codeSport) {
+    public void setCodeSport(Integer codeSport) {
         this.codeSport = codeSport;
     }
 
@@ -55,8 +55,8 @@ public class SportEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        SportEntity that = (SportEntity) o;
-        return codeSport == that.codeSport &&
+        Sport that = (Sport) o;
+        return  Objects.equals(codeSport, that.codeSport) &&
                 tarifUnite == that.tarifUnite &&
                 Objects.equals(libelleSport, that.libelleSport) &&
                 Objects.equals(uniteTpsSport, that.uniteTpsSport);

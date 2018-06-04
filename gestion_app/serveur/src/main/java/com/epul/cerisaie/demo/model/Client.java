@@ -5,8 +5,8 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "client", schema = "cerisaie")
-public class ClientEntity {
-    private int numCli;
+public class Client {
+    private Integer numCli;
     private String nomCli;
     private String adrRueCli;
     private int cpCli;
@@ -16,11 +16,11 @@ public class ClientEntity {
 
     @Id
     @Column(name = "NumCli")
-    public int getNumCli() {
+    public Integer getNumCli() {
         return numCli;
     }
 
-    public void setNumCli(int numCli) {
+    public void setNumCli(Integer numCli) {
         this.numCli = numCli;
     }
 
@@ -88,8 +88,8 @@ public class ClientEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ClientEntity that = (ClientEntity) o;
-        return numCli == that.numCli &&
+        Client that = (Client) o;
+        return  Objects.equals(numCli, that.numCli) &&
                 cpCli == that.cpCli &&
                 numPieceCli == that.numPieceCli &&
                 Objects.equals(nomCli, that.nomCli) &&

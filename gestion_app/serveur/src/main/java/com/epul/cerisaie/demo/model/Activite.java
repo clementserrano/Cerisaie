@@ -6,21 +6,21 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "activite", schema = "cerisaie")
-@IdClass(ActiviteEntityPK.class)
-public class ActiviteEntity {
-    private int codeSport;
+@IdClass(ActivitePK.class)
+public class Activite {
+    private int sport;
     private Date dateJour;
     private int numSej;
-    private short nbLoc;
+    private Integer nbLoc;
 
     @Id
     @Column(name = "CodeSport")
-    public int getCodeSport() {
-        return codeSport;
+    public int getSport() {
+        return sport;
     }
 
-    public void setCodeSport(int codeSport) {
-        this.codeSport = codeSport;
+    public void setSport(int codeSport) {
+        this.sport = codeSport;
     }
 
     @Id
@@ -45,11 +45,11 @@ public class ActiviteEntity {
 
     @Basic
     @Column(name = "NbLoc")
-    public short getNbLoc() {
+    public Integer getNbLoc() {
         return nbLoc;
     }
 
-    public void setNbLoc(short nbLoc) {
+    public void setNbLoc(Integer nbLoc) {
         this.nbLoc = nbLoc;
     }
 
@@ -57,16 +57,16 @@ public class ActiviteEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ActiviteEntity that = (ActiviteEntity) o;
-        return codeSport == that.codeSport &&
+        Activite that = (Activite) o;
+        return sport == that.sport &&
                 numSej == that.numSej &&
-                nbLoc == that.nbLoc &&
+                Objects.equals(nbLoc, that.nbLoc) &&
                 Objects.equals(dateJour, that.dateJour);
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(codeSport, dateJour, numSej, nbLoc);
+        return Objects.hash(sport, dateJour, numSej, nbLoc);
     }
 }

@@ -6,20 +6,36 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "sejour", schema = "cerisaie")
-public class SejourEntity {
-    private int numSej;
+public class Sejour {
+    private Integer numSej;
+    private Integer numCli;
+    private Integer numEmpl;
     private Date datedebSej;
     private Date dateFinSej;
     private int nbPersonnes;
 
     @Id
     @Column(name = "NumSej")
-    public int getNumSej() {
+    public Integer getNumSej() {
         return numSej;
     }
 
-    public void setNumSej(int numSej) {
+    public void setNumSej(Integer numSej) {
         this.numSej = numSej;
+    }
+
+    @Basic
+    @Column(name = "NumCli")
+    public Integer getNumCli(){ return numCli; }
+
+    public void setNumCli(Integer numCli) { this.numCli = numCli; }
+
+    @Basic
+    @Column(name = "NumEmpl")
+    public Integer getNumEmpl(){ return numEmpl; }
+
+    public void setNumEmpl(Integer numEmpl) {
+        this.numEmpl = numEmpl;
     }
 
     @Basic
@@ -56,8 +72,8 @@ public class SejourEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        SejourEntity that = (SejourEntity) o;
-        return numSej == that.numSej &&
+        Sejour that = (Sejour) o;
+        return  Objects.equals(numSej, that.numSej) &&
                 nbPersonnes == that.nbPersonnes &&
                 Objects.equals(datedebSej, that.datedebSej) &&
                 Objects.equals(dateFinSej, that.dateFinSej);

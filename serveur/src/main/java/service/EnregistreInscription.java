@@ -12,7 +12,7 @@ public class EnregistreInscription {
 
     public void insertionInscription(InscriptionEntity uneI) throws Exception, MonException {
 
-        // On instancie l'entity Manager
+        // On instancie l'model Manager
         factory = Persistence.createEntityManagerFactory("PInscription");
         entityManager = factory.createEntityManager();
 

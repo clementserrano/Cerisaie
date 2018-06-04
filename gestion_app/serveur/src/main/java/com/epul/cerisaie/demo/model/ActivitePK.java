@@ -6,18 +6,18 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.util.Objects;
 
-public class ActiviteEntityPK implements Serializable {
+public class ActivitePK implements Serializable {
     private int codeSport;
     private Date dateJour;
     private int numSej;
 
     @Column(name = "CodeSport")
     @Id
-    public int getCodeSport() {
+    public int getSport() {
         return codeSport;
     }
 
-    public void setCodeSport(int codeSport) {
+    public void setSport(int codeSport) {
         this.codeSport = codeSport;
     }
 
@@ -45,7 +45,7 @@ public class ActiviteEntityPK implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ActiviteEntityPK that = (ActiviteEntityPK) o;
+        ActivitePK that = (ActivitePK) o;
         return codeSport == that.codeSport &&
                 numSej == that.numSej &&
                 Objects.equals(dateJour, that.dateJour);

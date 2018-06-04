@@ -1,22 +1,8 @@
-package com.epul.cerisaie.demo;
-
-import com.epul.cerisaie.demo.model.*;
-import org.springframework.hateoas.core.Relation;
+package com.epul.cerisaie.demo.dto;
 
 import java.util.Date;
-/*
-@Relation(value = "activite", collectionRelation = "activites")
+
 public class ActiviteDTO implements IActiviteProjection {
-
-    public ActiviteDTO(ActiviteId activiteId, String nomClient, Date date, String nomActivite, Integer nbInscriptions){
-        this.activiteId = activiteId;
-        this.nomClient = nomClient;
-        this.date = date;
-        this.nomActivite = nomActivite;
-        this.nbInscriptions = nbInscriptions;
-    }
-
-    private ActiviteId activiteId;
 
     private String nomClient;
 
@@ -25,6 +11,13 @@ public class ActiviteDTO implements IActiviteProjection {
     private String nomActivite;
 
     private Integer nbInscriptions;
+
+    public ActiviteDTO(String nomClient, Date date, String nomActivite, Integer nbInscriptions){
+        this.nomClient = nomClient;
+        this.date = date;
+        this.nomActivite = nomActivite;
+        this.nbInscriptions = nbInscriptions;
+    }
 
     @Override
     public String getNomClient() {
@@ -46,4 +39,3 @@ public class ActiviteDTO implements IActiviteProjection {
         return nbInscriptions;
     }
 }
-*/

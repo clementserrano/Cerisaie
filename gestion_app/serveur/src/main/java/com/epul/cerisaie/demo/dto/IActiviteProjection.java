@@ -1,4 +1,4 @@
-package com.epul.cerisaie.demo;
+package com.epul.cerisaie.demo.dto;
 
 import java.util.Date;
 
