@@ -1,6 +1,5 @@
 package ejb;
 
-import dto.*;
 import metier.*;
 
 public class FactoryEntity {

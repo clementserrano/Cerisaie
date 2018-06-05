@@ -1,4 +1,4 @@
-package dto;
+package metier;
 
 import java.io.Serializable;
 import java.sql.Date;

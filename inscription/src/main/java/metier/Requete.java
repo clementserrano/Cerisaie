@@ -1,10 +1,10 @@
-package controle;
+package metier;
 
 import java.io.Serializable;
 
 public class Requete implements Serializable {
     private String nom;
-    private Object dto;
+    private Serializable dto;
 
     public String getNom() {
         return nom;
@@ -18,7 +18,7 @@ public class Requete implements Serializable {
         return dto;
     }
 
-    public void setDto(Object dto) {
+    public void setDto(Serializable dto) {
         this.dto = dto;
     }
 }

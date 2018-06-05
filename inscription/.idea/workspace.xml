@@ -7,35 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b86e410-cab4-4852-a347-b869272d7162" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/inscription_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/inscription_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controle/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Controleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controle/FactoryRequete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/FactoryRequete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controle/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Requete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/Activite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/Activite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/Emplacement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/Sejour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/Sport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/TypeEmplacement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/AjouteActivite.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/AjouteActivite.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/AjouteSejour.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Erreur.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Erreur.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/.idea/artifacts/InscriptionTopic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/.idea/artifacts/serveur_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/FactoryRequete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/FactoryRequete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/Requete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/Activite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/dto/Activite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/Emplacement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/Sejour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/Sport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/TypeEmplacement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/dto/Activite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/metier/Activite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/ejb/DemandeEntityTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/ejb/DemandeEntityTopic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/ejb/FactoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/ejb/FactoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/ejb/Requete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/service/EnregistreEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/service/EnregistreEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/utils/NomRequete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/NomRequete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/ejb/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/metier/Requete.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,8 +46,8 @@
       <file leaf-file-name="Controleur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controle/Controleur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="152">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,29 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jboss-ejb-client.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jboss-ejb-client.properties">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Header.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Header.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FactoryRequete.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controle/FactoryRequete.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/metier/FactoryRequete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="192">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,29 +76,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="Requete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controle/Requete.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/metier/Requete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AjouteActivite.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/AjouteActivite.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="64">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -181,14 +140,14 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/FactoryRequete.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/Erreur.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controle/Requete.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/NomRequete.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Header.java" />
         <option value="$PROJECT_DIR$/src/main/java/metier/Activite.java" />
         <option value="$PROJECT_DIR$/web/Header.jsp" />
         <option value="$PROJECT_DIR$/web/AjouteActivite.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controle/Controleur.java" />
         <option value="$PROJECT_DIR$/src/main/java/controle/FactoryRequete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controle/Requete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controle/Controleur.java" />
       </list>
     </option>
   </component>
@@ -217,9 +176,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="width" value="1938" />
-    <option name="height" value="1051" />
+    <option name="x" value="-17" />
+    <option name="width" value="1941" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,6 +255,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -896,11 +855,12 @@
       <workItem from="1527496635220" duration="21000" />
       <workItem from="1527953084957" duration="3830000" />
       <workItem from="1528014531950" duration="4385000" />
+      <workItem from="1528215954937" duration="2836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113051000" />
+    <option name="totallyTimeSpent" value="117819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -913,11 +873,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32866043" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16970138" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -933,53 +892,27 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21806854" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.91121495" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26948288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27312455" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info anchor="right" id="JSF" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26948288" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16970138" />
-      <window_info anchor="right" id="CDI" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="top" id="Spring" order="0" weight="0.32520324" />
-      <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="right" id="CDI" order="4" />
+      <window_info anchor="top" id="Spring" order="0" weight="0.32520324" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2211838" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -998,6 +931,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Requete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/Header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1101,47 +1041,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/metier/Inscription.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Emplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Sejour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Sport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/metier/TypeEmplacement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/AjouteSejour.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Emplacement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Sejour.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Sport.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/TypeEmplacement.java" />
     <entry file="file://$PROJECT_DIR$/web/Erreur.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1174,19 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1197,15 +1088,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/AjouteActivite.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jboss-ejb-client.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="96">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/web/AjouteActivite.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controle/Controleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1214,34 +1126,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controle/Requete.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/Requete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jboss-ejb-client.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/metier/FactoryRequete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controle/Controleur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controle/FactoryRequete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1315,7 +1213,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jboss-client</last-edited>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

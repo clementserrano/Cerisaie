@@ -1,6 +1,7 @@
-package controle;
+package metier;
 
 import metier.Activite;
+import metier.Requete;
 import utils.NomRequete;
 
 import javax.servlet.ServletRequest;

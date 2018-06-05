@@ -1,5 +1,7 @@
 package controle;
 
+import metier.FactoryRequete;
+import metier.Requete;
 import utils.Header;
 import utils.MonException;
 
@@ -13,7 +15,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.Serializable;
 
 @WebServlet("/Controleur")
 public class Controleur extends HttpServlet {
@@ -68,9 +69,9 @@ public class Controleur extends HttpServlet {
         }
     }
 
-    private void gererEnvoi(Serializable objet, ServletRequest request, ServletResponse response) throws Exception {
-        if (objet != null) {
-            boolean ok = envoi(objet);
+    private void gererEnvoi(Requete requete, ServletRequest request, ServletResponse response) throws Exception {
+        if (requete != null) {
+            boolean ok = envoi(requete);
             if (ok)
                 this.getServletContext().getRequestDispatcher("/index.jsp").include(request, response);
             else {
@@ -79,7 +80,7 @@ public class Controleur extends HttpServlet {
         }
     }
 
-    private boolean envoi(Serializable object) throws Exception {
+    private boolean envoi(Requete requete) throws Exception {
         boolean ok = true;
         TopicConnection connection = null;
 
@@ -89,7 +90,7 @@ public class Controleur extends HttpServlet {
             producer = session.createPublisher(topic);
             connection.start();
             ObjectMessage message = session.createObjectMessage();
-            message.setObject(object);
+            message.setObject(requete);
             producer.publish(message);
             producer.close();
             session.close();

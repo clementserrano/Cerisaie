@@ -1,6 +1,7 @@
 package ejb;
 
-import dto.Activite;
+import metier.Activite;
+import metier.Requete;
 import service.EnregistreEntity;
 import utils.EcritureErreur;
 import utils.NomRequete;
@@ -38,7 +39,6 @@ public class DemandeEntityTopic implements MessageListener {
                     switch (NomRequete.valueOf(requete.getNom())) {
                         case INSERT_ACTIVITE:
                             entity = FactoryEntity.createActivite((Activite) requete.getDto());
-                            System.out.println(entity);
                             break;
                     }
 
