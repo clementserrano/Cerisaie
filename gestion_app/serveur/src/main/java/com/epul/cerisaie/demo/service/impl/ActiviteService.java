@@ -9,9 +9,7 @@ import com.epul.cerisaie.demo.model.Sport;
 import com.epul.cerisaie.demo.service.IActiviteService;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class ActiviteService extends Services implements IActiviteService {
@@ -25,6 +23,7 @@ public class ActiviteService extends Services implements IActiviteService {
         for(Activite activite : activites){
             addDTOList(res, activite);
         }
+        Collections.sort(res);
         return res;
     }
 
@@ -39,6 +38,7 @@ public class ActiviteService extends Services implements IActiviteService {
                 addDTOList(res, activite);
             }
         }
+        Collections.sort(res);
         return res;
     }
 

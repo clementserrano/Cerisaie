@@ -2,7 +2,7 @@ package com.epul.cerisaie.demo.dto;
 
 import java.util.Date;
 
-public interface IActiviteProjection {
+public interface IActiviteProjection extends Comparable{
 
     String getNomClient();
 

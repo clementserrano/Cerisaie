@@ -39,9 +39,9 @@ public class PrixService extends Services implements IPrixService {
             if(prixTot > 0){
                 PrixDTO dto = new PrixDTO(client.get().getNomCli(), nbActivites, prixTot);
                 res.add(dto);
-                Collections.sort(res);
             }
         }
+        Collections.sort(res);
         return res;
     }
 }

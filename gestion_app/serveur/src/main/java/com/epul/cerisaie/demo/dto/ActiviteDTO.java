@@ -38,4 +38,16 @@ public class ActiviteDTO implements IActiviteProjection {
     public Integer getNbInscriptions() {
         return nbInscriptions;
     }
+
+    @Override
+    public int compareTo(Object o) {
+        ActiviteDTO activiteDTO = (ActiviteDTO)o;
+        if(this.date.before(activiteDTO.date))
+            return 1;
+        if(this.date.after(activiteDTO.date))
+            return -1;
+        if(this.date.equals(activiteDTO.date))
+            return 0;
+        return 0;
+    }
 }

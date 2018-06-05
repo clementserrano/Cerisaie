@@ -32,9 +32,9 @@ public class PrixDTO implements IPrixProjection {
     @Override
     public int compareTo(Object o) {
         PrixDTO prixDTO = (PrixDTO)o;
-        if(this.prix > prixDTO.prix)
-            return  1;
         if(this.prix < prixDTO.prix)
+            return  1;
+        if(this.prix > prixDTO.prix)
             return  -1;
         if(this.prix.equals(prixDTO.prix))
             return  0;
