@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient } from "@angular/common/http";
+import {HttpClient, HttpParams} from "@angular/common/http";
 import {Observable} from "rxjs/index";
 
 @Injectable({
@@ -16,5 +16,4 @@ export class ActiviteService {
   getAllBySport(id): Observable<any>{
     return this.http.get('api/activite/get/' + id);
   }
-
 }

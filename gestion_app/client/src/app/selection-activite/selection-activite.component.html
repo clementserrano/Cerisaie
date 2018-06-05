@@ -1,24 +1,23 @@
 <div class="row center">
-  <div class="col-md-1">
-    <a routerLink="/">
-      <h2 class="pan1 pan1-grey">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </h2>
+  <div class="col-md-3">
+    <div class="col-md-6 col-md-offset-3">
+      <a routerLink="/">
+        <h2 class="pan1 pan1-grey">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </h2>
+      </a>
+    </div>
+
+    <br/>
+
+    <a *ngFor="let sport of sports" routerLink="planning/{{sport.idSport}}">
+      <div class="label label-info col-md-12 col-md-offset-0">
+        {{ sport.nomSport }}
+      </div>
     </a>
   </div>
-  <div class="col-md-11 col-md-offset-0">
-    <h2>
-      Choix de l'activité
-    </h2>
+
+  <div class="col-md-9">
+    <router-outlet></router-outlet>
   </div>
-</div>
-
-<br/>
-
-<div class="row center">
-  <a *ngFor="let sport of sports" routerLink="/planning/{{sport.idSport}}">
-    <div class="label label-info col-md-3 col-md-offset-1">
-      {{ sport.nomSport }}
-    </div>
-  </a>
 </div>

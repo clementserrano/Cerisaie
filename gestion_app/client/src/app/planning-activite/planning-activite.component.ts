@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {ActiviteService} from "../services/activite/activite.service";
-import {Location} from "@angular/common";
 import {Observable} from "rxjs/index";
 
 @Component({
@@ -12,29 +11,31 @@ import {Observable} from "rxjs/index";
 export class PlanningActiviteComponent implements OnInit {
 
   activites: Observable<any>;
-  nomActivite: String;
+  nomActivite: string;
+  id: string;
 
   constructor(
     private route: ActivatedRoute,
-    private activiteService: ActiviteService,
-    private location: Location
-  ) { }
+    private activiteService: ActiviteService) { }
 
   ngOnInit() {
+    this.getId();
     this.getActivites();
   }
 
-  getActivites(): void {
-    const id = this.route.snapshot.paramMap.get('id');
-    this.activiteService.getAllBySport(id).subscribe(data => {
-        this.activites = data;
-        this.nomActivite = data[0].nomActivite;
+  getId(): void {
+    this.route.url.subscribe(url => {
+      this.id = (url[1] !== undefined && url[1] !== null) ? url[1].path : null;
+      this.getActivites();
     });
   }
 
-  goBack(): void {
-    this.location.back();
+  getActivites(): void {
+    if(this.id !== null && this.id !== undefined){
+      this.activiteService.getAllBySport(this.id).subscribe(data => {
+        this.activites = data;
+        this.nomActivite = data[0].nomActivite;
+      });
+    }
   }
-
-
 }

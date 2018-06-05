@@ -10,6 +10,7 @@ import { SelectionActiviteComponent } from './selection-activite/selection-activ
 import { PlanningActiviteComponent } from './planning-activite/planning-activite.component';
 import {ActiviteService} from "./services/activite/activite.service";
 import {SportService} from "./services/sport/sport.service";
+import { ConsulterPrixComponent } from './consulter-prix/consulter-prix.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {SportService} from "./services/sport/sport.service";
     MenuComponent,
     PlanningGlobalComponent,
     SelectionActiviteComponent,
-    PlanningActiviteComponent
+    PlanningActiviteComponent,
+    ConsulterPrixComponent
   ],
   imports: [
     BrowserModule,
