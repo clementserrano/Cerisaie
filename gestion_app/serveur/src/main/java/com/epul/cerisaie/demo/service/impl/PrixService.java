@@ -33,7 +33,7 @@ public class PrixService extends Services implements IPrixService {
 
                     Optional<Sport> sport = sportDAO.findById(activite.getSport());
                     nbActivites += 1;
-                    prixTot += sport.get().getTarifUnite();
+                    prixTot += sport.get().getTarifUnite() * activite.getNbLoc();
                 }
             }
             if(prixTot > 0){
