@@ -70,10 +70,10 @@ npm start
 
 Pour créer un nouveau component angular
 ```
-ng g c nom-component
+ng generate component nom-component
 ```
 
 Pour créer un nouveau service angular
 ```
-ng g s shared/nom-service/nom-service
+ng generate service nom-service
 ```
