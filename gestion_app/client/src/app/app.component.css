@@ -1,0 +1,21 @@
+h1 {
+  color: dodgerblue;
+  padding-top: auto;
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.container {
+  padding-top: 5%;
+}
+
+.row {
+  margin-bottom: 2%;
+}

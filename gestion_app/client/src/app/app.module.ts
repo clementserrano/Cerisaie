@@ -1,16 +1,32 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PlanningGlobalComponent } from './planning-global/planning-global.component';
+import { SelectionActiviteComponent } from './selection-activite/selection-activite.component';
+import { PlanningActiviteComponent } from './planning-activite/planning-activite.component';
+import {ActiviteService} from "./services/activite/activite.service";
+import {SportService} from "./services/sport/sport.service";
+import { ConsulterPrixComponent } from './consulter-prix/consulter-prix.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    PlanningGlobalComponent,
+    SelectionActiviteComponent,
+    PlanningActiviteComponent,
+    ConsulterPrixComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ActiviteService, SportService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

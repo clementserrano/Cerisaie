@@ -2,9 +2,13 @@
   "name": "client",
   "version": "0.0.0",
   "scripts": {
+    "webdriver-update": "webdriver-manager update",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --proxy-config proxy.conf.json",
+    "build": "ng build --prod",
+    "postbuild": "npm run deploy",
+    "predeploy": "rimraf ../serveur/src/main/resources/static && mkdirp ../serveur/src/main/resources/static",
+    "deploy": "cd dist/client && copyfiles \"./**\" ../../../serveur/src/main/resources/static",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -20,7 +24,12 @@
     "@angular/platform-browser": "^6.0.2",
     "@angular/platform-browser-dynamic": "^6.0.2",
     "@angular/router": "^6.0.2",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.5.4",
+    "jquery": "^3.3.1",
+    "mkdirp": "^0.5.1",
+    "popper.js": "^1.14.3",
+    "rimraf": "^2.6.2",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },

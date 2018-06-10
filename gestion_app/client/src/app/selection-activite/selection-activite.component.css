@@ -1,0 +1,16 @@
+.label, .label-info {
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 15%;
+  background-color: #C0C0C0;
+  display: inline-block;
+}
+
+.label-info:hover, .label:hover {
+  background-color: grey;
+}
+
+.label, .label-info *{
+  padding-top: 10px;
+  font-size: 30px;
+}

@@ -1,0 +1,46 @@
+<div *ngIf="activites">
+  <div class="row center">
+    <div class="col-md-2 col-md-offset-1">
+      <a routerLink="/choixActivite">
+        <h2 class="pan1 pan1-grey">
+          <span class="glyphicon glyphicon-remove-sign"></span>
+        </h2>
+      </a>
+    </div>
+    <div class="col-md-9 col-md-offset-0">
+      <h2>
+        Consultation du planning de {{ nomActivite }}
+      </h2>
+    </div>
+  </div>
+
+  <div class="row tableau center">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="table table-hover">
+        <thead class="row">
+        <tr>
+          <th class="col-md-3">Nom</th>
+          <th class="col-md-3">Date</th>
+          <th class="col-md-3">Activité</th>
+          <th class="col-md-3">Nombre de personnes</th>
+        </tr>
+        </thead>
+        <tbody class="row">
+        <tr *ngFor="let activite of activites">
+          <td class="col-md-3">{{ activite.nomClient }}</td>
+          <td class="col-md-3">{{ activite.date }}</td>
+          <td class="col-md-3">{{ activite.nomActivite }}</td>
+          <td class="col-md-3">{{ activite.nbInscriptions }}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div *ngIf="!activites">
+  <div class="col-md-11 col-md-offset-1">
+    <h2>
+      Veuillez sélectionner une activité
+    </h2>
+  </div>
+</div>

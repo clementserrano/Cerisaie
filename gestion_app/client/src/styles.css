@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+.center{
+  text-align: center;
+  align-self: center;
+}
+
+
+/**
+ *  Pour le bouton de retour :
+ */
+
+.pan1 span {
+  padding-top: 8px;
+  align-self: center;
+}
+
+.pan1 {
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 50px;
+  max-width: 300px;
+  min-width: 80px;
+  align-self: center;
+  position: relative;
+}
+
+/* GREY */
+.pan1-grey {
+  background-color: #808080;
+}
+
+.pan1-grey:hover {
+  background-color: #696969;
+}
