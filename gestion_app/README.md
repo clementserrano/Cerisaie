@@ -1,9 +1,10 @@
-# Projet Oeuvre
+# Cerisaie
 
 ### Développeurs
 - Bastien JACOUD
 - Victor REMOND
 - Clément SERRANO
+- Martial TARDY
 
 ### Prérequis
 - Installer Node v10.1.0
