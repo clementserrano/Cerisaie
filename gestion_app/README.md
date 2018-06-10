@@ -10,10 +10,13 @@
 - Installer Node v10.1.0
 
 ### Pour déployer l'application
-- Se placer dans **/client** et lancer la commande suivante pour installer les **/node_modules**
+- Se placer dans **/client** et lancer la commande suivante pour installer les **/node_modules**.
 ````
 npm install
 ````
+
+- Supprimer le contenu de **/serveur/src/main/resources/static**.
+
 - Puis lancer la commande suivante pour build l'application Angular en mode production, et placer son contenu dans le dossier **/resources/static** de la partie serveur.
 ````
 npm run build
@@ -51,7 +54,7 @@ Si vous n'arrivez pas à build l'application, un JAR compilé est disponible à 
 
 ## Développement
 
-### Spring (dans /server)
+### Spring (dans /serveur)
 
 Pour lancer le serveur
 ```
