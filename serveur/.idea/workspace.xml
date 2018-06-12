@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4e6c6e4-87b2-4624-a480-4c45b51e2531" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../inscription/.idea/artifacts/inscription_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/.idea/artifacts/inscription_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inscription/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/controle/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/controle/Controleur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/controle/FactoryRequete.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/controle/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/Requete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../inscription/src/main/java/metier/FactoryRequete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../inscription/src/main/java/metier/FactoryRequete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Activite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/Activite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/FactoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejb/FactoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ejb/Requete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/metier/Requete.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -468,7 +458,7 @@
       <workItem from="1526910714630" duration="1366000" />
       <workItem from="1527953534521" duration="5476000" />
       <workItem from="1528014559349" duration="3915000" />
-      <workItem from="1528215878799" duration="2795000" />
+      <workItem from="1528215878799" duration="3025000" />
     </task>
     <task id="LOCAL-00001" summary="Enorme copier coller, génération des entity dans serveur, il faudra desynchro les .idea et .iml pour pas s'entretuer">
       <created>1526911551008</created>
@@ -495,7 +485,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51576000" />
+    <option name="totallyTimeSpent" value="51806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
@@ -514,7 +504,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.4034268" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.4034268" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
@@ -523,7 +513,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" sideWeight="0.5155763" side_tool="true" weight="0.2607429" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.27166787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.27166787" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32993445" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="4" />
