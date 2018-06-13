@@ -33,12 +33,14 @@ public class ActiviteService extends Services implements IActiviteService {
 
         List<IActiviteProjection> res = new ArrayList<>();
 
-        for(Activite activite : activites){
-            if(sportId == activite.getSport()){
-                addDTOList(res, activite);
+        if(sportId >= 0){
+            for(Activite activite : activites){
+                if(sportId == activite.getSport()){
+                    addDTOList(res, activite);
+                }
             }
+            Collections.sort(res);
         }
-        Collections.sort(res);
         return res;
     }
 
