@@ -1,4 +1,4 @@
-package meserreurs;
+package utils;
 
 public class MonException  extends Exception  {
     /**

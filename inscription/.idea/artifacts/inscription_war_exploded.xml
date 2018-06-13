@@ -1,16 +1,16 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="AppClientInscription:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/AppClientInscription_war_exploded</output-path>
+  <artifact type="exploded-war" name="inscription:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/inscription_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="AppClientInscription" />
+          <element id="module-output" name="inscription" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="AppClientInscription/web/Web" />
+      <element id="javaee-facet-resources" facet="inscription/web/Web" />
     </root>
   </artifact>
 </component>
