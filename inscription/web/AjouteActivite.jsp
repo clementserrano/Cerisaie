@@ -13,7 +13,6 @@
             alert('Erreur signalée  : "' + obj.value + "'");
     }
 </script>
-<script src="js/js_verif.js" type="text/javascript"></script>
 
 <form id="formAddActivitie" action='Controleur?action=ENVOI_ACTIVITE' method='post' onsubmit="return verif($('#formAddActivitie'));">
     <div>
@@ -21,15 +20,20 @@
             <div class="well">
 
                 <h1>Ajouter une activité</h1>
-                <div class="form-group">
-                    <label for="codeSport">Code Sport</label>
-                    <input type="number" class="form-control" id="codeSport" name="codeSport">
-                </div>
+
+                <input type="hidden" class="form-control" id="codeSport" name="codeSport">
 
                 <div class="form-group">
-                    <label for="libelle">Libellé</label>
-                    <input type="text" class="form-control" id="libelle" name="libelle">
+                    <label for="libelle">Sport</label>
+                    <select class="form-control" id="libelle" name="libelle">
+                        <option>Tennis</option>
+                        <option>VTT</option>
+                        <option>Planche-vo</option>
+                        <option>Pédalo</option>
+                        <option>Canoé</option>
+                    </select>
                 </div>
+
                 <div class="form-group">
                     <label for="dateJour">Date Jour</label>
                     <input name="dateJour" id="dateJour" class="form-control" min="0">

@@ -1,7 +1,6 @@
 package service;
 
 import metier.SportEntity;
-import utils.MonException;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

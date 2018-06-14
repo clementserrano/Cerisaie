@@ -41,7 +41,7 @@ public class DemandeEntityTopic implements MessageListener {
                     switch (NomRequete.valueOf(requete.getNom())) {
                         case INSERT_ACTIVITE:
                             Activite activite = (Activite) requete.getDto();
-                            if(checkSport(activite)) {
+                            if (checkSport(activite)) {
                                 entity = FactoryEntity.createActivite(activite);
                             }
                             break;
@@ -65,13 +65,13 @@ public class DemandeEntityTopic implements MessageListener {
     private boolean checkSport(Activite activite) {
         SportEntity sport = CheckEntity.retrieveSport(activite.getCodeSport());
         String err;
-        if(sport == null) {
+        if (sport == null) {
             err = "Unable to find sport with code " + activite.getCodeSport();
             System.out.println(err);
             EcritureErreur.write(err);
             return false;
         }
-        if(!sport.getLibelleSport().equals(activite.getLibelle())) {
+        if (!sport.getLibelleSport().equals(activite.getLibelle())) {
             err = "Sport with code " + activite.getCodeSport() + " : libelle given \"" +
                     activite.getLibelle() + "\", expected \"" + sport.getLibelleSport() + "\"";
             System.out.println(err);
