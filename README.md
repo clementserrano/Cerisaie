@@ -1,6 +1,15 @@
 # Cerisaie
 
-Rajouter dans le standalone.xml la datasource : 
+Prérequis pour JMS : 
+
+#### Attention
+
+Ouvrez le projet sur Intellij, ne créez pas de projet à partir des sources.
+Modifiez seulement si nécessaire le chemin vers Wildly (par défaut "C:\wildfly-12.0.0.Final"), dans les dépendances et dans l'artifact du serveur.
+
+#### Rajouter dans le standalone.xml 
+
+- La datasource : (il faut monter le connecteur mysql)
 
 ```xml
 <datasource jta="true" jndi-name="java:/DSCerisaie" pool-name="DSCerisaie" enabled="true" use-ccm="true">
@@ -29,3 +38,13 @@ Rajouter dans le standalone.xml la datasource :
     </statement>
 </datasource>
 ```
+
+- Le topic :
+
+```xml
+<jms-topic name="InscriptionJmsTopic" entries="java:jboss/exported/topic/InscriptionJmsTopic"/>
+```
+
+#### Lancer bin/add-user.bat
+
+Rajouter jmsuser/jmsepul98! dans le groupe guest.

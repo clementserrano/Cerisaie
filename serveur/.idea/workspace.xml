@@ -51,7 +51,7 @@
       <file leaf-file-name="DemandeEntityTopic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="527">
               <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -183,9 +183,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-19" />
-    <option name="width" value="1942" />
-    <option name="height" value="1056" />
+    <option name="x" value="-20" />
+    <option name="width" value="1943" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,6 +193,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,9 +274,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,6 +458,7 @@
       <workItem from="1528014559349" duration="3915000" />
       <workItem from="1528215878799" duration="3025000" />
       <workItem from="1528962741954" duration="17000" />
+      <workItem from="1528962905450" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="Enorme copier coller, génération des entity dans serveur, il faudra desynchro les .idea et .iml pour pas s'entretuer">
       <created>1526911551008</created>
@@ -484,7 +485,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51823000" />
+    <option name="totallyTimeSpent" value="51826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
@@ -492,13 +493,13 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.37383178" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32993445" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32866043" />
       <window_info anchor="right" id="CDI" order="4" weight="0.32993445" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32866043" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32993445" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="JSF" order="4" weight="0.32993445" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -507,8 +508,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.49844238" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.49844238" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" sideWeight="0.5155763" side_tool="true" weight="0.2607429" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48442367" visible="true" weight="0.27552554" />
@@ -518,11 +519,11 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.4034268" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
     </layout>
@@ -713,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ejb/DemandeEntityTopic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="527">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
