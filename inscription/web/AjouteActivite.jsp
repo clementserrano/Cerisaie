@@ -5,7 +5,7 @@
 <html>
 <%@ include file="Header.jsp" %>
 <script language="Javascript" type="text/javascript"></script>
-<script type="text/javascript" src="js/foncControle.js"></script>
+<script type="text/javascript" src="resources/js/foncControle.js"></script>
 <script>
     function Chargement() {
         var obj = document.getElementById("id_erreur");
@@ -15,7 +15,7 @@
 </script>
 <script src="js/js_verif.js" type="text/javascript"></script>
 
-<form action='Controleur?action=ENVOI_ACTIVITE' method='post' onsubmit="return verif(this);">
+<form id="formAddActivitie" action='Controleur?action=ENVOI_ACTIVITE' method='post' onsubmit="return verif($('#formAddActivitie'));">
     <div>
         <div class="container">
             <div class="well">
