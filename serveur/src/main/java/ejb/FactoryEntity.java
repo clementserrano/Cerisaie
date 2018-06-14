@@ -1,6 +1,8 @@
 package ejb;
 
-import metier.*;
+
+import metier.Activite;
+import metier.ActiviteEntity;
 
 public class FactoryEntity {
 

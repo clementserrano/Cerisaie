@@ -7,6 +7,8 @@ Prérequis pour JMS :
 Ouvrez le projet sur Intellij, ne créez pas de projet à partir des sources.
 Modifiez seulement si nécessaire le chemin vers Wildly (par défaut "C:\wildfly-12.0.0.Final"), dans les dépendances et dans l'artifact du serveur.
 
+Faites Build > Rebuild Project sur Intellij avant de lancer.
+
 #### Rajouter dans le standalone.xml 
 
 - La datasource : (il faut monter le connecteur mysql)

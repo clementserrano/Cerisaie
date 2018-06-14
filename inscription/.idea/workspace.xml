@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b86e410-cab4-4852-a347-b869272d7162" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serveur/.idea/artifacts/serveur_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/.idea/artifacts/serveur_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serveur/src/main/java/ejb/FactoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serveur/src/main/java/ejb/FactoryEntity.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,8 +74,8 @@
       <file leaf-file-name="AjouteActivite.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/AjouteActivite.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="164">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -162,9 +166,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
+    <option name="x" value="-23" />
     <option name="width" value="1943" />
-    <option name="height" value="1057" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,19 +234,6 @@
               <item name="inscription" type="b2602c69:ProjectViewProjectNode" />
               <item name="inscription" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inscription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inscription" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inscription" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inscription" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,6 +244,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -858,11 +849,12 @@
       <workItem from="1528555714225" duration="596000" />
       <workItem from="1528806521493" duration="69000" />
       <workItem from="1528962913514" duration="5000" />
+      <workItem from="1528963681846" duration="1123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118718000" />
+    <option name="totallyTimeSpent" value="119841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,7 +872,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32866043" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.16966967" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.16966967" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -890,14 +882,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.52202284" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21806854" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3034258" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28603604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29054055" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -911,7 +904,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="CDI" order="4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.5233645" />
       <window_info anchor="top" id="Spring" order="0" weight="0.32520324" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1151,8 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/AjouteActivite.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="164">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
